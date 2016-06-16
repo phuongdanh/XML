@@ -11,11 +11,11 @@ function create_table($table,$field=array()) {
 
     foreach( $field as $db ) { 
         $b = $xml->createElement( 'field' ); 
-            $name = $xml->createElement( 'name' ); 
-            $name->appendChild( 
+        $name = $xml->createElement( 'name' ); 
+        $name->appendChild( 
             $xml->createTextNode( $db ) 
             ); 
-            $b->appendChild( $name ); 
+        $b->appendChild( $name ); 
         $r->appendChild( $b ); 
     } 
     $xml= $xml->save( $folder.$table.".xml" ); 
