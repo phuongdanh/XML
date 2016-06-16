@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <field>
+        <name>name</name>
+    </field>
+    <field>
+        <name>content</name>
+    </field>
+    <field>
+        <name>time</name>
+    </field>
+</data>
